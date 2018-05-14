@@ -1,6 +1,12 @@
 build-lists: true
 
-# [fit][Web Assembly Dance Party](https://www.youtube.com/watch?v=ojP0BO6H4Qc)
+# How did I get here?
+
+![inline](https://media1.tenor.com/images/5cb200146b45eb17e3d451ed9917eb62/tenor.gif?itemid=9201571)
+
+---
+
+# [fit]WebAssembly Dance Party
 
 ![inline](https://media.giphy.com/media/l3q2zbskZp2j8wniE/giphy.gif)
 
@@ -49,7 +55,7 @@ build-lists: true
 
 # Back in the day
 
-![inline](./Images/Wasm1.png)
+![inline clear](./Images/Wasm1.png)
 
 ---
 
@@ -67,7 +73,7 @@ build-lists: true
 
 # THE FUTURE (Today)
 
-![inline](./Images/Wasm4.png)
+![inline](./Images/Wasm42.png)
 
 ---
 
@@ -88,6 +94,14 @@ build-lists: true
 * Teaching JavaScript is the hardest by far
 * ES5 was hard to begin with
 * ES6, 7, 8, etc. making it even more difficult
+
+---
+
+# A student / teacher perspective on WebAssembly
+* If you can learn JavaScript, you can learn anything!
+* Learn to learn, unfamiliar environments, problem solving
+* Many students get jobs working with other languages
+* Must be able to talk about programming in general
 
 ---
 
