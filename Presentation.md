@@ -31,6 +31,7 @@ build-lists: true
 # Objectives
 * Illustrate growth of ECMAScript
 * Introduce WebAssembly (Wasm)
+* Understand how to use Wasm
 * Outline future vision
 
 ---
@@ -117,6 +118,28 @@ build-lists: true
 
 ---
 
+# .wat is WebAssembly or Wasm (Cont...)
+* Modules can be loaded in either the UI thread or in a Web Worker
+* Run in a safe, sandboxed execution environment & enforces browser's policies and permissions
+
+---
+
+# Memory
+* Wasm Memory is represented as a contiguous range of untyped bytes
+* The memory accessible by a particular WebAssembly Instance is confined to a range
+* Libraries have separate memories that are fully isolated from each other
+
+---
+
+# Tables
+* Wasm Tables are resizable typed arrays of references
+* While Memory provides a resizable typed array of raw bytes, it is unsafe for references
+* In the current iteration, functions are the only valid reference type
+
+---
+
+# How can I use it?
+
 ![inline](./Images/LaurieVossWasmTweet.png)
 
 ---
@@ -124,6 +147,14 @@ build-lists: true
 # wasm-bindgen
 
 ![inline](./Images/wasm-bindgen-snippet.png)
+
+---
+
+# Emscripten
+
+* When you’ve written a new code module in a language like C/C++, you can compile it into WebAssembly using a tool like Emscripten
+
+`emcc hello.c -s WASM=1 -o hello.html`
 
 ---
 
@@ -139,8 +170,11 @@ build-lists: true
 # Objectives
 * Illustrate growth of ECMAScript
 * Introduce WebAssembly (Wasm)
+* Understand how to use Wasm
 * Outline future vision
 
 ---
 
 # Thank you!
+
+![inline](https://d1wli5mq9yq9mw.cloudfront.net/files/cards/full/VIVA111.png)
